@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accessible Page</title>
+</head>
+<body>
+
+    <!-- Skip Link -->
+    <a href="#main-content">Skip to main content</a>
+    <br>
+
+    <!-- Home Link -->
+    <a href="#">Home</a>
+    <a href="#">Help</a>
+
+    <!-- Main Content -->
+    <main id="main-content">
+
+        <h1>Accessible Page</h1>
+
+        <!-- Image with Alt Text -->
+        <img src="logo.png" alt="College Logo"
+             width="150" height="50">
+
+        <!-- Search Input with ARIA Label -->
+        <p>
+            <label for="search">Search:</label>
+            <input type="search" id="search"
+                   aria-label="Search">
+        </p>
+
+    </main>
+
+</body>
+</html>
